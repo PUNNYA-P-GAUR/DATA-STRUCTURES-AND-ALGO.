@@ -9,8 +9,8 @@ class Binary_Search {
             if (arr[mid] == x)
                 return mid;
             if (arr[mid] > x)
-                return binarySearch(arr, l, mid - 1, x);
-            return binarySearch(arr, mid + 1, r, x);
+                return binarySearch(arr, l, mid - 1, x);                               //RECURSIVE CALL
+            return binarySearch(arr, mid + 1, r, x);                                   //RECURSIVE CALL
         }
         return -1;
     }
