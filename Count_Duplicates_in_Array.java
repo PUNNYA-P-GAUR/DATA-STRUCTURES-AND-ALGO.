@@ -4,11 +4,11 @@ class Array{
        for(int i=0;i< arr.length;i++){
            for(int j=i+1;j<arr.length;j++){
                if(arr[i]==arr[j]){
-                   System.out.print(arr[i]);
+                   c++;
                }
            }
        }
-       //return c;
+       return c;
 
    }
 
@@ -20,7 +20,6 @@ class Array{
        for(int i=0;i< arr.length;i++){
            arr[i]=s.nextInt();
        }
-       //System.out.println(a.CountDup(arr));
-       a.CountDup(arr);
+       System.out.println(a.CountDup(arr));
    }
 }
